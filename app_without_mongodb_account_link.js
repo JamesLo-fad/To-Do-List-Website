@@ -12,7 +12,7 @@ app.use(express.static("public"));
 
 mongoose.set("strictQuery", false);
 mongoose.connect(
-    "mongodb+srv://jameslo:721831abc@cluster0.i5jf7jn.mongodb.net/todolistDB",
+    "{link_to_connect_mongodb}",
     {
         useNewUrlParser: true,
     }
